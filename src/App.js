@@ -26,6 +26,7 @@ class App extends React.Component {
   };
 
   render() {
+    const { data, country } = this.state;
     return (
       <div className="App">
         <img src={image} width="300px" className="mt-3" />
